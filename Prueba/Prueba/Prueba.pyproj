@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>146c08d4-e26f-4046-9803-9c377e807290</ProjectGuid>
+    <ProjectGuid>2f1591d1-6ec0-4369-ac63-889f26bfbd81</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Ej20Sec.py</StartupFile>
+    <StartupFile>Prueba.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Ej20Sec</Name>
-    <RootNamespace>Ej20Sec</RootNamespace>
+    <Name>Prueba</Name>
+    <RootNamespace>Prueba</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Ej20Sec.py" />
+    <Compile Include="Prueba.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
