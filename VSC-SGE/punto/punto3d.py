@@ -5,14 +5,14 @@ class punto3d(punto):
         super().__init__(x,y)
         self.__z=z
 
-    def __init__(self,p,z=0):#Constructor al que se pasa el punto(2d) y z
+    def __init__(self,p=punto(0,0),z=0):#Constructor al que se pasa el punto(2d) y z. Habria que comentar el otro constructor
         super().__init__(p.x,p.y)
         self.__z=z
 
     @property
     def z(self):
         print("Doy z")
-        return self.z
+        return self.__z
 
     @z.setter
     def z(self,z):
