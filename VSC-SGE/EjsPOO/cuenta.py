@@ -1,7 +1,7 @@
 from persona import persona
 class cuenta():
 
-    def __init__(self,titular=persona(), cantidad=0):
+    def __init__(self,titular, cantidad=0):
         self.__titular = titular
         self.__cantidad=cantidad
 

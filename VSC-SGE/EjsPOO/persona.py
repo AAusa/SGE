@@ -39,5 +39,5 @@ class persona():
     def mostrar(self):
         return str(self.__nombre)+":"+str(self.__edad)+":"+str(self.__dni)
 
-    def esMayorDeEdad(self,edad):
-        return edad >= 18
+    def esMayorDeEdad(self):
+        return self.__edad >= 18
